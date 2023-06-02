@@ -1,6 +1,6 @@
 # EdTech
 
-[Live Project Link](https://github.com/facebook/create-react-app).
+[Live Project Link](https://edtechsite.netlify.app/).
 
 ## Project HomePage
 
