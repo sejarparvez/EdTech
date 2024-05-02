@@ -1,8 +1,6 @@
-import Logo5 from "@iconscout/react-unicons/icons/uil-adjust-alt";
-import Logo from "@iconscout/react-unicons/icons/uil-adobe";
-import Logo3 from "@iconscout/react-unicons/icons/uil-behance";
-import Logo4 from "@iconscout/react-unicons/icons/uil-dribbble";
-import Logo2 from "@iconscout/react-unicons/icons/uil-linux";
+import { FaAdjust } from "react-icons/fa";
+import { SiAdobe, SiBehance, SiDribbble, SiLinux } from "react-icons/si";
+
 export default function Action() {
   return (
     <div className="flex flex-col items-center justify-center rounded-t-2xl bg-main-100 px-4 py-10 md:rounded-t-3xl lg:px-28 lg:py-20">
@@ -19,23 +17,23 @@ export default function Action() {
       </button>
       <div className="mt-16 flex flex-wrap items-center justify-center gap-10 ">
         <div className="flex items-center gap-1 text-gray-300">
-          <Logo />
+          <FaAdjust />
           <div className="text-2xl font-bold ">Logoipsum</div>
         </div>
         <div className="flex items-center gap-1  text-gray-300">
-          <Logo2 />
+          <SiAdobe />
           <div className="text-2xl font-bold">Logoipsum</div>
         </div>
         <div className="flex items-center gap-1 text-gray-300">
-          <Logo3 />
+          <SiBehance />
           <div className="text-2xl font-bold">Logoipsum</div>
         </div>
         <div className="flex items-center gap-1 text-gray-300">
-          <Logo4 />
+          <SiDribbble />
           <div className="text-2xl font-bold ">Logoipsum</div>
         </div>
         <div className="flex items-center gap-1 text-gray-300">
-          <Logo5 />
+          <SiLinux />
           <div className="text-2xl font-bold ">Logoipsum</div>
         </div>
       </div>

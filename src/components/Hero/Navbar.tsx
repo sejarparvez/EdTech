@@ -1,4 +1,4 @@
-import Adjust from "@iconscout/react-unicons/icons/uil-adjust";
+import { FaAdjust } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -6,7 +6,7 @@ export default function Navbar() {
       {/* Logo and EdTech */}
       <div className="flex items-center gap-8 text-white lg:gap-28">
         <div className="flex items-center text-2xl font-bold">
-          <Adjust size={32} />
+          <FaAdjust />
           <div className=" font-philosopher">EdTech</div>
         </div>
         {/* Navigation links */}

@@ -1,7 +1,7 @@
-import face1 from "../../img/face1.jpg";
-import face2 from "../../img/face2.jpg";
-import face3 from "../../img/face3.jpeg";
-import face4 from "../../img/face4.jpg";
+import face1 from "../../image/face1.jpg";
+import face2 from "../../image/face2.jpg";
+import face3 from "../../image/face3.jpeg";
+import face4 from "../../image/face4.jpg";
 const TestimonialsData = [
   {
     Name: "Alexander Luther",

@@ -1,7 +1,6 @@
-import Calander from "@iconscout/react-unicons/icons/uil-calendar-alt";
-import Chat from "@iconscout/react-unicons/icons/uil-chat";
-import Notes from "@iconscout/react-unicons/icons/uil-notes";
-import img2 from "../../img/img2.jpg";
+import { FaCalendarAlt, FaNotesMedical } from "react-icons/fa";
+import { IoChatbubbleOutline } from "react-icons/io5";
+import img2 from "../../image/img2.jpg";
 
 export default function WhyUs() {
   return (
@@ -9,7 +8,7 @@ export default function WhyUs() {
       <div className=" col-span-1 flex flex-col gap-6">
         <div className="flex flex-col gap-3">
           <div>
-            <Chat size="40" />
+            <IoChatbubbleOutline />
           </div>
           <div className="font-philosopher text-3xl">Discussion 24/7</div>
           <div className="text-gray-600">
@@ -20,7 +19,7 @@ export default function WhyUs() {
         </div>
         <div className="flex flex-col gap-3">
           <div>
-            <Calander size="40" />
+            <FaCalendarAlt />
           </div>
           <div className="font-philosopher text-3xl">Schedule with Author</div>
           <div className="text-gray-600">
@@ -31,7 +30,7 @@ export default function WhyUs() {
         </div>
         <div className="flex flex-col gap-3">
           <div>
-            <Notes size="40" />
+            <FaNotesMedical />
           </div>
           <div className="font-philosopher text-3xl">Practice for free</div>
           <div className="text-gray-600">

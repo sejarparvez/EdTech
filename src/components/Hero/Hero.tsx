@@ -1,5 +1,5 @@
-import Search from "@iconscout/react-unicons/icons/uil-search";
-import HeroImg from "../../img/hero.jpg";
+import { FaSearch } from "react-icons/fa";
+import HeroImg from "../../image/hero.jpg";
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 
@@ -47,7 +47,7 @@ const Hero: React.FC = () => (
                   </div>
                   <div>
                     <div className="flex  h-10 w-10 items-center justify-center rounded-full bg-main-400 md:h-16 md:w-16">
-                      <Search color="white" />
+                      <FaSearch />
                     </div>
                   </div>
                 </div>

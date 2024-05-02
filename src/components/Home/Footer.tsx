@@ -1,9 +1,11 @@
-import Logo from "@iconscout/react-unicons/icons/uil-adjust";
-import Copy from "@iconscout/react-unicons/icons/uil-copyright";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Instagram from "@iconscout/react-unicons/icons/uil-instagram";
-import Linkeding from "@iconscout/react-unicons/icons/uil-linkedin";
-import Twitter from "@iconscout/react-unicons/icons/uil-twitter";
+import {
+  FaAdjust,
+  FaCopy,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -12,7 +14,7 @@ export default function Footer() {
         <div className=" col-span-2 row-span-1 pr-7 md:col-span-3">
           <div className="flex items-center gap-2">
             <div>
-              <Logo size="36" color="white" />
+              <FaAdjust />
             </div>
             <div className="font-philosopher text-3xl font-bold text-white">
               EdTech
@@ -48,15 +50,15 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-between gap-4 py-3 md:flex-row md:px-28">
         <div className="flex gap-1 text-gray-200">
           <span>
-            <Copy />
+            <FaCopy />
           </span>
           <span>EdTech. All rights reserved</span>
         </div>
         <div className="flex gap-6 text-gray-200">
-          <Facebook />
-          <Instagram />
-          <Twitter />
-          <Linkeding />
+          <FaFacebook />
+          <FaInstagram />
+          <FaTwitter />
+          <FaLinkedin />
         </div>
       </div>
     </div>

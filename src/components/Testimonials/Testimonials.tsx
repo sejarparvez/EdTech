@@ -1,6 +1,6 @@
-import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Model from "./Model";
 import TestimonialsData from "./TestimonialsData";
@@ -15,10 +15,9 @@ export default function Testimonials() {
       <div className="text-center font-philosopher text-4xl md:text-6xl">
         What Our Students <br /> Say About Us
       </div>
-      <div className="flex w-screen items-center justify-center gap-10 overflow-hidden px-4 md:px-20">
+      <div className="flex w-full items-center justify-center gap-10 overflow-hidden px-4 md:px-20">
         <Swiper
-          grabCursor={true}
-          className=" mt-12 flex w-[100%] items-center justify-center overflow-visible"
+          grabCursor
           pagination={{ clickable: true }}
           modules={[Pagination, Autoplay]}
           loop={true}
@@ -40,7 +39,7 @@ export default function Testimonials() {
           }}
         >
           {TestimonialsData.map((item, index) => (
-            <SwiperSlide className="mb-16 flex" key={index}>
+            <SwiperSlide key={index}>
               <Model
                 image={item.Image}
                 name={item.Name}
@@ -54,3 +53,25 @@ export default function Testimonials() {
     </div>
   );
 }
+
+// Import Swiper React components
+
+// Import Swiper styles
+// import "swiper/css";
+
+// export default function Testimonials() {
+//   return (
+//     <>
+//       <Swiper className="mySwiper">
+//         <SwiperSlide>Slide 1</SwiperSlide>
+//         <SwiperSlide>Slide 2</SwiperSlide>
+//         <SwiperSlide>Slide 3</SwiperSlide>
+//         <SwiperSlide>Slide 4</SwiperSlide>
+//         <SwiperSlide>Slide 5</SwiperSlide>
+//         <SwiperSlide>Slide 6</SwiperSlide>
+//         <SwiperSlide>Slide 7</SwiperSlide>
+//         <SwiperSlide>Slide 8</SwiperSlide>
+//         <SwiperSlide>Slide 9</SwiperSlide>
+//       </Swiper>
+//     </>
+//   );

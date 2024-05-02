@@ -1,4 +1,4 @@
-import Quote from "@iconscout/react-unicons/icons/uil-comment";
+import { FaComment } from "react-icons/fa";
 
 export default function Model({
   image,
@@ -28,7 +28,7 @@ export default function Model({
           </div>
         </div>
         <div>
-          <Quote />
+          <FaComment />
         </div>
       </div>
       <div>{description}</div>

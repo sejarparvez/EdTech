@@ -1,7 +1,6 @@
-import Minus from "@iconscout/react-unicons/icons/uil-minus";
-import Plus from "@iconscout/react-unicons/icons/uil-plus";
 import { useState } from "react";
-import Img from "../../img/img1.jpeg";
+import { FaMinus, FaPlus } from "react-icons/fa";
+import Img from "../../image/img1.jpeg";
 
 export default function Help() {
   const [isTextVisible, setTextVisible] = useState(true);
@@ -56,11 +55,11 @@ export default function Help() {
             <button onClick={toggleTextVisibility} className="px-3 py-2">
               {isTextVisible ? (
                 <span>
-                  <Minus />
+                  <FaMinus />
                 </span>
               ) : (
                 <span>
-                  <Plus />
+                  <FaPlus />
                 </span>
               )}
             </button>
@@ -82,11 +81,11 @@ export default function Help() {
             <button onClick={toggleTextVisibility1} className="px-3 py-2">
               {isTextVisible1 ? (
                 <span>
-                  <Minus />
+                  <FaMinus />
                 </span>
               ) : (
                 <span>
-                  <Plus />
+                  <FaPlus />
                 </span>
               )}
             </button>
@@ -107,11 +106,11 @@ export default function Help() {
             <button onClick={toggleTextVisibility2} className="px-3 py-2">
               {isTextVisible2 ? (
                 <span>
-                  <Minus />
+                  <FaMinus />
                 </span>
               ) : (
                 <span>
-                  <Plus />
+                  <FaPlus />
                 </span>
               )}
             </button>

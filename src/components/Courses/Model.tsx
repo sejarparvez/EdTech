@@ -1,7 +1,6 @@
-import Clock from "@iconscout/react-unicons/icons/uil-clock";
-import DataBase from "@iconscout/react-unicons/icons/uil-database";
-import GraphBar from "@iconscout/react-unicons/icons/uil-graph-bar";
-import Star from "@iconscout/react-unicons/icons/uil-star";
+import { FaStar } from "react-icons/fa";
+import { LuClock, LuDatabase } from "react-icons/lu";
+import { MdBarChart } from "react-icons/md";
 
 export default function Model({
   Title,
@@ -27,7 +26,7 @@ export default function Model({
           <div>By {Name}</div>
           <div className="flex items-center gap-1">
             <span>
-              <Star color="orange" />
+              <FaStar />
             </span>
             <span>4.8 (122)</span>
           </div>
@@ -36,19 +35,19 @@ export default function Model({
         <div className="flex flex-wrap justify-center gap-4">
           <div className="flex gap-1 text-sm text-gray-700">
             <span>
-              <Clock />
+              <LuClock />
             </span>
             <span>40 Min</span>
           </div>
           <div className="flex gap-1 text-sm text-gray-700">
             <span>
-              <DataBase />
+              <LuDatabase />
             </span>
             <span>21 Modules</span>
           </div>
           <div className="flex gap-1 text-sm text-gray-700">
             <span>
-              <GraphBar />
+              <MdBarChart />
             </span>
             <span>21 Modules</span>
           </div>
