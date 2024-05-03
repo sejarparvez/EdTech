@@ -1,13 +1,13 @@
-import { FaAdjust } from "react-icons/fa";
+import { FiSlack } from "react-icons/fi";
 
 export default function Navbar() {
   return (
     <div className="absolute hidden  h-16 w-full items-center justify-between px-4 md:flex md:h-28 lg:pr-20 lg:pl-24">
       {/* Logo and EdTech */}
       <div className="flex items-center gap-8 text-white lg:gap-28">
-        <div className="flex items-center text-2xl font-bold">
-          <FaAdjust />
-          <div className=" font-philosopher">EdTech</div>
+        <div className="flex items-center gap-2">
+          <FiSlack size="32" />
+          <div className="font-philosopher text-2xl font-extrabold">EdTech</div>
         </div>
         {/* Navigation links */}
         <div className="hidden gap-6 md:flex lg:gap-16">
