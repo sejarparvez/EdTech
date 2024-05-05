@@ -1,4 +1,4 @@
-import { FaAdjust } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { SiAdobe, SiBehance, SiDribbble, SiLinux } from "react-icons/si";
 
 export default function Companies() {
@@ -11,25 +11,25 @@ export default function Companies() {
         </span>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-4 md:gap-10">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 text-2xl font-bol text-gray-500">
           <SiAdobe />
-          <div className="text-2xl font-bold text-gray-500">LogoipsumFS</div>
+          <div>Adobe</div>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
           <SiLinux />
-          <div className="text-2xl font-bold text-gray-500">LogoipsumS</div>
+          <div>Linux</div>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
           <SiBehance />
-          <div className="text-2xl font-bold text-gray-500">LogoipsumS</div>
+          <div>Behance</div>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
           <SiDribbble />
-          <div className="text-2xl font-bold text-gray-500">LogoipsumS</div>
+          <div>Dribble</div>
         </div>
-        <div className="flex items-center gap-1">
-          <FaAdjust />
-          <div className="text-2xl font-bold text-gray-500">LogoipsumA</div>
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
+          <FaFacebook />
+          <div>Facebook</div>
         </div>
       </div>
     </div>
