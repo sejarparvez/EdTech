@@ -33,19 +33,19 @@ export default function Model({
         </div>
         <div className="h-0.5 w-full bg-gray-300"></div>
         <div className="flex flex-wrap justify-center gap-4">
-          <div className="flex gap-1 text-sm text-gray-700">
+          <div className="flex gap-1 items-center text-sm text-gray-700">
             <span>
               <LuClock />
             </span>
             <span>40 Min</span>
           </div>
-          <div className="flex gap-1 text-sm text-gray-700">
+          <div className="flex gap-1 items-center text-sm text-gray-700">
             <span>
               <LuDatabase />
             </span>
             <span>21 Modules</span>
           </div>
-          <div className="flex gap-1 text-sm text-gray-700">
+          <div className="flex gap-1 items-center text-sm text-gray-700">
             <span>
               <MdBarChart />
             </span>
