@@ -1,5 +1,5 @@
-import { FaCalendarAlt, FaNotesMedical } from "react-icons/fa";
-import { IoChatbubbleOutline } from "react-icons/io5";
+import { IoCalendarOutline, IoChatbubbleOutline } from "react-icons/io5";
+import { SiTestrail } from "react-icons/si";
 import img2 from "../../image/img2.jpg";
 
 export default function WhyUs() {
@@ -8,7 +8,7 @@ export default function WhyUs() {
       <div className=" col-span-1 flex flex-col gap-6">
         <div className="flex flex-col gap-3">
           <div>
-            <IoChatbubbleOutline />
+            <IoChatbubbleOutline size="32" />
           </div>
           <div className="font-philosopher text-3xl">Discussion 24/7</div>
           <div className="text-gray-600">
@@ -19,7 +19,7 @@ export default function WhyUs() {
         </div>
         <div className="flex flex-col gap-3">
           <div>
-            <FaCalendarAlt />
+            <IoCalendarOutline size="32" />
           </div>
           <div className="font-philosopher text-3xl">Schedule with Author</div>
           <div className="text-gray-600">
@@ -30,7 +30,7 @@ export default function WhyUs() {
         </div>
         <div className="flex flex-col gap-3">
           <div>
-            <FaNotesMedical />
+            <SiTestrail size="32" />
           </div>
           <div className="font-philosopher text-3xl">Practice for free</div>
           <div className="text-gray-600">
