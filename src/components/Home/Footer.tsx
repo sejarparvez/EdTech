@@ -1,11 +1,6 @@
-import {
-  FaAdjust,
-  FaCopy,
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { MdCopyright } from "react-icons/md";
+import { SiSlack } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -14,7 +9,7 @@ export default function Footer() {
         <div className=" col-span-2 row-span-1 pr-7 md:col-span-3">
           <div className="flex items-center gap-2">
             <div>
-              <FaAdjust />
+              <SiSlack size="32" color="gray" />
             </div>
             <div className="font-philosopher text-3xl font-bold text-white">
               EdTech
@@ -48,9 +43,9 @@ export default function Footer() {
       </div>
       <hr />
       <div className="flex flex-col items-center justify-between gap-4 py-3 md:flex-row md:px-28">
-        <div className="flex gap-1 text-gray-200">
+        <div className="flex gap-1 items-center text-gray-200">
           <span>
-            <FaCopy />
+            <MdCopyright />
           </span>
           <span>EdTech. All rights reserved</span>
         </div>

@@ -1,4 +1,4 @@
-import { FaComment } from "react-icons/fa";
+import { FaRegComments } from "react-icons/fa";
 
 export default function Model({
   image,
@@ -28,7 +28,7 @@ export default function Model({
           </div>
         </div>
         <div>
-          <FaComment />
+          <FaRegComments size="32" />
         </div>
       </div>
       <div>{description}</div>

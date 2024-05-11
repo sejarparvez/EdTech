@@ -1,4 +1,4 @@
-import { FaAdjust } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { SiAdobe, SiBehance, SiDribbble, SiLinux } from "react-icons/si";
 
 export default function Action() {
@@ -15,26 +15,26 @@ export default function Action() {
       <button className="my-10 rounded-full bg-[#24d6aa] px-12 py-4 font-bold">
         Get Started
       </button>
-      <div className="mt-16 flex flex-wrap items-center justify-center gap-10 ">
-        <div className="flex items-center gap-1 text-gray-300">
-          <FaAdjust />
-          <div className="text-2xl font-bold ">Logoipsum</div>
-        </div>
-        <div className="flex items-center gap-1  text-gray-300">
+      <div className="flex flex-wrap items-center justify-center gap-4 md:gap-10">
+        <div className="flex items-center gap-1 text-2xl font-bol text-gray-500">
           <SiAdobe />
-          <div className="text-2xl font-bold">Logoipsum</div>
+          <div>Adobe</div>
         </div>
-        <div className="flex items-center gap-1 text-gray-300">
-          <SiBehance />
-          <div className="text-2xl font-bold">Logoipsum</div>
-        </div>
-        <div className="flex items-center gap-1 text-gray-300">
-          <SiDribbble />
-          <div className="text-2xl font-bold ">Logoipsum</div>
-        </div>
-        <div className="flex items-center gap-1 text-gray-300">
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
           <SiLinux />
-          <div className="text-2xl font-bold ">Logoipsum</div>
+          <div>Linux</div>
+        </div>
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
+          <SiBehance />
+          <div>Behance</div>
+        </div>
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
+          <SiDribbble />
+          <div>Dribble</div>
+        </div>
+        <div className="flex items-center gap-1 text-2xl font-bold text-gray-500">
+          <FaFacebook />
+          <div>Facebook</div>
         </div>
       </div>
     </div>
