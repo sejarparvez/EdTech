@@ -44,56 +44,6 @@ Before you begin, ensure you have met the following requirements:
    yarn install
    ```
 
-### Certainly! Here is a Markdown file that can be used to document your single page React app using Vite and TypeScript. This file will cover the key sections such as the project overview, installation instructions, development setup, and usage.
-
-markdown
-
-# Single Page React App with Vite and TypeScript
-
-## Overview
-
-This is a single-page application (SPA) built using React, Vite, and TypeScript. The app is designed to be fast, efficient, and easy to develop and deploy. Vite is used as the build tool, providing a highly performant development environment, and TypeScript ensures type safety throughout the codebase.
-
-## Features
-
-- ⚡️ Fast development with Vite
-- 🛠️ Type-safe development with TypeScript
-- 🌟 Modern React with hooks and functional components
-- 🎨 Styled with Tailwind CSS
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- Node.js (v14 or higher)
-- npm or yarn
-- Git
-
-## Getting Started
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. Install dependencies
-
-   Using npm:
-
-   ```bash
-   npm install
-   ```
-
-   Using yarn:
-
-   ```bash
-   yarn install
-   ```
-
 ### Development
 
 1. **Run the development server**
